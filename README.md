@@ -2,7 +2,7 @@
 The Author is Echo
 
 ### Date created
-Include the date you created this project and README file.
+Today's date is Jan 13 2020.
 
 ### Project Title
 This is project 3 of programming for data science with Python
