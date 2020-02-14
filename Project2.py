@@ -26,8 +26,6 @@ def get_filters():
         city = input("\nWould you like to see data for Chicago, New York City, or Washington?\n").title().lower()
         if city in cities:
             break
-        else:
-            print("The data is not availabe for {}.\n".format(city))
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
@@ -36,8 +34,6 @@ def get_filters():
         Have Filter: type one month from january, february, march, april, may, or june\n").title().lower()
         if month in months or month == 'all':
             break
-        else:
-            print("\nInvalid input\n")
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
@@ -46,8 +42,6 @@ def get_filters():
         Have Filter: type one day from monday, tuesday, wednesday, thursday, friday, saturday, or sunday\n").title().lower()
         if day in day_of_weeks or day == 'all':
             break
-        else:
-            print("\nInvalid input\n")
 
     print('-'*40)
     return city, month, day
