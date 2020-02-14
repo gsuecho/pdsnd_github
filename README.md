@@ -8,7 +8,7 @@ Today's date is Jan 13 2020.
 This is project 3 of programming for data science with Python
 
 ### Description
-Describe what your project is about and what it does
+This project is going to submit bikeshare python code to GitHUb
 
 ### Files used
 Include the files used
